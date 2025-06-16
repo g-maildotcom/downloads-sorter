@@ -11,7 +11,7 @@ types = {
     "images": [".jpg", "jpeg", ".png", ".gif", ".heif", ".heic"],
     "pdfs": [".pdf"],
     "docs": [".docx", ".doc", ".gdoc", ".odt", ".txt"],
-    "musica": [".wav", ".mp3"],
+    "audio": [".wav", ".mp3"],
     "zips": [".zip", ".rar", ".7z", ".tar.gz"],
     "code": [".py", ".js", ".html", ".css", ".c"],
     "sheets": [".xlsx", ".sheets", ".gsheet", ".csv"]
@@ -41,4 +41,4 @@ for filename in os.listdir(downloads): #os.listdir returns a list of all file an
 miscfold = os.path.join(downloads, "misc")
 os.makedirs(miscfold, exist_ok=True)
 shutil.move(filepath, os.path.join(miscfold, filename))
-print(f"FILETYPE NOT IN CODE: {filename} → misc/")
+print(f"FILETYPE NOT SPECIFIED IN CODE: {filename} → misc/")
