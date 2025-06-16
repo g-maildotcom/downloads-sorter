@@ -1,0 +1,26 @@
+# macOS system files: Mac system file, clutters repo
+.DS_Store
+
+# Python cache files: Python caches bytecode for speed — not needed
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# VS Code and IDE settings: Compiled Python files — junk for version control
+.vscode/
+.idea/
+
+# Virtual environments: Virtual envs are machine-specific and heavy; Prevents secrets (like API keys) from leaking
+venv/
+.env/ 
+
+# Logs or debug output
+*.log
+
+# Jupyter Notebook checkpoints (if you use Jupyter later)
+.ipynb_checkpoints/
+
+# Data/output folders (if you add any in future)
+output/
+data/
