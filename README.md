@@ -1,4 +1,4 @@
-**Small Mini-Project**
+**First Mini-Project**
 
 A short Python script that organizes your 'Downloads' folder by file type.
 
